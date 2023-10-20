@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .button {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
