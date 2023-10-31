@@ -1,17 +1,31 @@
 body {
-    background-color: black;
-    color: white;
-  }
-  
-  .button {
-    position: absolute;
-    width: 100px;
-    height: 40px;
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-    user-select: none;
-  }
-  
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 75vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.button {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
